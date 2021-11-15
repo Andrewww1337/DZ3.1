@@ -1,0 +1,26 @@
+body *{
+	background: green;
+	margin:20px;
+    border:1px;
+    border-style:outset;
+    border-color:black;
+	padding: 20px;
+	box-shadow: 5px 5px 7px rgba(250,50,50,1);
+    display: block;
+}
+
+body * *{
+	background:yellow;
+}
+
+body * * *{
+	background: brown;
+}
+
+body * * * *{
+	background: blue;
+}
+
+body * * * * *{
+	background: red;
+}
